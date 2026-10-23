@@ -43,8 +43,7 @@ Only a sample config file is provided in the repository.
 Create the required config file by copying the sample:
 
 ```bash
-cd backend/config
-cp config.prod.sample.yml config.prod.yml
+cp deployment/backend/config.prod.sample.yml backend/config/config.prod.yml
 ```
 
 ---
